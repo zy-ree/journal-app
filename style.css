@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe4e1; /* Light pink background */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff69b4; /* Dark pink header background */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    margin: 20px;
+}
+
+footer {
+    background-color: #ff69b4; /* Dark pink footer background */
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #ff69b4; /* Dark pink button background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff1493; /* Darker pink on hover */
+}
+
+.entry {
+    padding: 10px;
+    border: 1px solid #ff69b4; /* Border color matches header/footer */
+    border-radius: 5px;
+    margin: 10px 0;
+    background-color: #fff; /* White entry background */
+}
+
+.entry-text {
+    flex: 1;
+}
+
+.edit-entry,
+.delete-entry {
+    background-color: #ff1493; /* Darker pink edit/delete button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.edit-entry:hover,
+.delete-entry:hover {
+    background-color: #ff0066; /* Darker pink on hover */
+}
