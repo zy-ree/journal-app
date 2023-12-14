@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Journal</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="shortcut icon" type="image/icon" href="logo.ico" />
+  </head>
+
+  <body>
+    <div id="launch-screen">
+      <h1>𝑾𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 𝒚𝒐𝒖𝒓 𝑱𝒐𝒖𝒓𝒏𝒂𝒍 ⋆ ˚｡⋆୨୧˚</h1>
+      <p>Start your journaling journey now!</p>
+      <button id="start-journal" aria-label="Start Journal">Get Started</button>
+    </div>
+    <div id="app" style="display: none">
+      <header>
+        <h1>How was your day? ૮ ˶ᵔ ᵕ ᵔ˶ ა</h1>
+      </header>
+      <main>
+        <div id="journal-entries"></div>
+      </main>
+      <footer>
+        <div class="mood-tracker">
+          <label for="mood-select">How's your mood today?</label>
+          <select id="mood-select">
+            <option value="😊">Happy</option>
+            <option value="😐">Neutral</option>
+            <option value="😢">Sad</option>
+            <option value="😡">Angry</option>
+          </select>
+        </div>
+        <div class="sticker">
+          <img src="sticker.ico" alt="Cute Sticker" />
+        </div>
+        <input type="text" id="journal-title" placeholder="Title" />
+        <textarea
+          id="journal-entry"
+          placeholder="Write your journal entry..."></textarea>
+        <button id="add-entry">Add Entry</button>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

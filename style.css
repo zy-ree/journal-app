@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fde2e4;
+    margin: 0;
+    padding: 0;
+}
+
+#launch-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    background: url(bg.jpg)no-repeat; 
+    background-size:cover;
+    background-position: center;
+}
+
+#launch-screen h1 {
+    font-size: 38px;
+    color: rgb(172, 54, 119);
+}
+
+#launch-screen p {
+    font-size: 20px;
+    color: #b34379;
+}
+
+#launch-screen button {
+    background-color: rgb(218, 111, 159);
+    color: #caacac;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+
+header {
+    background-color: rgb(226, 152, 164);
+    color: #524343;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    margin: 20px;
+}
+
+footer {
+    background-color: rgb(226, 154, 166);
+    padding: 10px;
+    text-align: center;
+}
+
+input[type="text"], textarea {
+    width: 98%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #c16b76;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(71, 50, 53);
+}
+
+.entry {
+    padding: 10px;
+    border: 1px solid #d46262;
+    border-radius: 5px;
+    margin: 10px 0;
+    background-color: rgb(205, 148, 148)696; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.entry-title,
+.entry-date {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.edit-entry,
+.delete-entry {
+    background-color: rgb(153, 74, 85);
+    color: #fefefe;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+.edit-entry:hover,
+.delete-entry:hover {
+    background-color: #5d4a4e;
+}
+
+.sticker {
+    font-size: 2em;
+    margin-right: 10px; 
+
+}
+
+.mood-tracker {
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+}
